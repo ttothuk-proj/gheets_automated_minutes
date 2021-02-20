@@ -82,7 +82,7 @@ import pygsheets
 df = pd.read_csv("minuti.csv")
 gc = pygsheets.authorize(service_file='creds.json')
 
-sh = gc.open_by_url('https://docs.google.com/spreadsheets/d/13xVfocgRtGI6PSmL-qOt_Pq52qmQ-Sbz8qSBUJE9Qjk/edit?ts=6000cf77#gid=1698030870')
+sh = gc.open_by_url('<link_to_my_spreadsheet>')
 wks = sh[4]
 
 wks.set_dataframe(df,'A1')
