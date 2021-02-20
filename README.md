@@ -7,6 +7,6 @@ To gather the numbers Python's BeautifulSoup library is used and then on Pandas 
 
 Once the dataframe is ready it is then uploaded to Google Sheets using the oauth2client and the pygsheets library.
 
-![chart.png]
+!()[chart.png]
 
-![gsheets.png]
+![gsheets.png]()
